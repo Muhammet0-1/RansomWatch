@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.coverage
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.venv/
+build/
+dist/
+htmlcov/
+venv/
+
+# Local RansomWatch canaries and output captured via shell redirection
+.ransomwatch-canary-*.txt
+ransomwatch-alerts*.jsonl
